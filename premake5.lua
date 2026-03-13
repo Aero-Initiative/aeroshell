@@ -5,12 +5,12 @@ if _ACTION == "clean" then
    os.remove(os.matchfiles("**.vcxproj*"))
 end
 
-workspace "ProjectShell"
+workspace "AeroShell"
    characterset "Unicode"
    architecture "x86_64"
    configurations { "Debug", "Release" }
    --location "projects"
-   startproject "ProjectShell"
+   startproject "AeroShell"
 
-include "project_shell/project_shell.lua"
+include "aeroshell/aeroshell.lua"
         

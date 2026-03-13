@@ -1,4 +1,4 @@
-project "ProjectShell"
+project "AeroShell"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++23"
@@ -11,7 +11,7 @@ project "ProjectShell"
 
    files {
             "**.hpp", "**.ixx", "**.cpp",
-            "project_shell.lua",
+            "aeroshell.lua",
             _MAIN_SCRIPT,
    }
 
